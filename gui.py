@@ -3,6 +3,8 @@ Developed by: Frederico Jordan
 
 @author: fvj
 '''
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 import pygame, chess
 from random import choice
 from traceback import format_exc
